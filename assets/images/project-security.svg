@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#07100d"/>
+  <rect x="42" y="42" width="816" height="476" rx="8" fill="#0b1713" stroke="#1d4a35" stroke-width="3"/>
+  <rect x="42" y="42" width="816" height="46" rx="8" fill="#10221a"/>
+  <circle cx="72" cy="65" r="7" fill="#8cffb5"/><circle cx="98" cy="65" r="7" fill="#4d9d70"/><circle cx="124" cy="65" r="7" fill="#1d4a35"/>
+  <text x="155" y="71" fill="#79a68a" font-family="monospace" font-size="18">blue-team@analysis:~</text>
+  <text x="82" y="140" fill="#8cffb5" font-family="monospace" font-size="24">$ nmap -sV 10.0.0.0/24</text>
+  <text x="82" y="182" fill="#d8f7df" font-family="monospace" font-size="20">22/tcp  open  ssh</text>
+  <text x="82" y="218" fill="#d8f7df" font-family="monospace" font-size="20">53/tcp  open  domain</text>
+  <text x="82" y="254" fill="#ff786f" font-family="monospace" font-size="20">8080/tcp open  suspicious-service</text>
+  <text x="82" y="310" fill="#8cffb5" font-family="monospace" font-size="24">$ tail -f /var/log/auth.log</text>
+  <text x="82" y="352" fill="#79a68a" font-family="monospace" font-size="20">[alert] failed login pattern detected</text>
+  <text x="82" y="388" fill="#d8f7df" font-family="monospace" font-size="20">[ok] indicators isolated for review</text>
+  <text x="82" y="444" fill="#8cffb5" font-family="monospace" font-size="24">$ wireshark --capture eth0</text>
+</svg>
